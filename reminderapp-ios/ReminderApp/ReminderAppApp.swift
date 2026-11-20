@@ -25,6 +25,7 @@ struct ReminderAppApp: App {
     var body: some Scene {
         WindowGroup {
             TaskListView()
+                .preferredColorScheme(.light)
         }
         .modelContainer(modelContainer)
     }
